@@ -1,12 +1,12 @@
-import './App.css'
+import "./App.css";
+import Navbar from "./components/navbar/Navbar";
 
 function App() {
-
   return (
     <div>
-      <h1>Selene</h1>
+      <Navbar />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
