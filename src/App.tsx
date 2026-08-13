@@ -4,10 +4,12 @@ import SketchAttempt from "./components/p5-components/SketchAttempt";
 
 function App() {
   return (
-    <div>
-      <Navbar />
+    <>
       <SketchAttempt />
-    </div>
+      <div className="app">
+        <Navbar />
+      </div>
+    </>
   );
 }
 
